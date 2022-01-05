@@ -122,34 +122,30 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea {
   border: 1px solid #33ccff;
 }
 .features-list{
-  margin-left: 2.5rem;
-  padding-bottom: 1rem ;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .feature-item{
-  padding: 20px;
-}
-.feature-item{
-  font-size: 24px;
-  font-size: 1.5rem;
+  
 }
 .feature-icon{
-  font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background: #33ccff;
   color: #fff;
   padding: 15px;
   border-radius: 100%;
 }
 .feature-title{
-  font-size: 28px;
-  font-size: 1.75rem;
+  font-size: 1.3rem;
+  font-weight: 700;
   padding-bottom: 14px;
   border-bottom: 1px solid #e4e4e4;
 }
 .feature-description{
-    font-size: 20px;
-    font-size: 1.25rem;
-    line-height: 1.4;
+    font-size: 1.1rem;
 }
 @media (max-width: 768px) {
 .features-list{
@@ -249,18 +245,15 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea {
 --------------------------------------------*/
 #skills{
   background: #fafafa;
-}
-#skills .section-header{
-  margin-left: 3.5rem;
+  height: 70vh;
 }
 #skills .section-title{
   background: #fafafa;
   padding-top: 8%;
 }
 #skills .lead{
-  padding: 5%;
   margin: 0 auto;
-  width: 40%;
+  margin: 3rem 2rem;
 }
 .feature-description {
   font-size: 1.2rem;
@@ -307,12 +300,13 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea {
       text-align: center;
     }
 }
-/* testimonials
+/* experiences
 --------------------------------------------*/
-#clients{
+#jobs{
   background: #f2f2f2;
 }
-.testimonial-item{
+.experience-item{
+  margin-top: 2rem;
   background: #fff;
   padding: 30px 25px 20px 25px;
   height: 500px;
@@ -320,23 +314,26 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
-.testimonial-item:hover{
+.experience-item:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.testimonial-avatar{
+.experience-avatar{
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 90%;
   height: 50%;
 }
-.testimonial-title{
-    font-size: 1.75rem;
+.experience-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
 }
-.testimonial-content{
-  line-height: 1.3;
+.experience-content{
+  line-height: 1.5; 
 }
-.testimonial-author{
-  font-size: .8rem;
+.experience-author{
+  color: #33ccff;
+  font-weight: 700;
 }
 /* Contact
 --------------------------------------------*/
