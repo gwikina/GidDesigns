@@ -129,7 +129,7 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea {
   justify-content: space-evenly;
 }
 .feature-item{
-  
+  margin-right: 2rem;
 }
 .feature-icon{
   font-size: 2rem;
