@@ -147,9 +147,13 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea {
 .feature-description{
     font-size: 1.1rem;
 }
-@media (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
 .features-list{
-  margin-left: 0;
+  display: block;
+}
+.feature-item{
+  margin: 0;
+  padding: 0;
 }
 .btn{
     width: 100%;
@@ -177,7 +181,7 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea {
   color: #333;
   margin-left: -50%;
 }
-@media (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
 .brand a{
   margin-left: 0;
   }
@@ -221,11 +225,14 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea {
   image-rendering: crisp-edges;
   image-rendering: pixelated;
 }
-@media (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
     #avatar{
       height: 400px;
       margin-left: 0;
       height: auto;
+    }
+    #about{
+      height: fit-content;
     }
     #about .lead{
       font-size: 1rem;
@@ -245,7 +252,7 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea {
 --------------------------------------------*/
 #skills{
   background: #fafafa;
-  height: 70vh;
+  padding: 5rem;
 }
 #skills .section-title{
   background: #fafafa;
@@ -258,20 +265,11 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea {
 .feature-description {
   font-size: 1.2rem;
 }
-@media (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
   #skills .section-header{
     margin-left: 0;
   }
-  #skills .section-title{
-    padding-top: 12%;
-    text-align: center;
-    font-size: 2.3rem;
-    width: 100%;
-  }
-  #skills .lead{
-    padding: 5%;
-    font-size: 1rem;
-  }
+
   .feature-description{
     font-size: 1rem;
     padding: 3%;
@@ -289,12 +287,12 @@ body, h1, h2, h3, h4, h5, h6, input, select, textarea {
   font-family: "Yellowtail", cursive, sans-serif;
   color: #33ccff;
 }
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .portfolio .col3{
       grid-column: span 6;
     }
 }
-@media (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 480px) {
     .portfolio .col3{
       grid-column: span 12;
       text-align: center;
